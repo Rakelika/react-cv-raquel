@@ -1,0 +1,22 @@
+.Experience {}
+
+.tittleSection {
+    color:#015e95;
+    font-weight: 800;
+}
+
+.itemExperience {
+    margin-top:20px
+}
+
+.principalExperience {
+    font-weight: 800;
+}
+
+.dataExperience {
+    margin-bottom:12px;
+}
+
+.descriptionExperience {
+    margin-left:12px;
+}

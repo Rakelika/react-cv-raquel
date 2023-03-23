@@ -1,0 +1,22 @@
+.Technologies {}
+
+.tittleSection {
+    color:#015e95;
+    font-weight: 800;
+}
+
+.containerTechno {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.itenTechno {
+    border:1px solid #015e95;
+    color:#015e95;
+    font-weight: 800;
+    border-radius: 30px ;
+    padding: 5px 30px;
+}

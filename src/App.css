@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  margin:0px
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  text-align: center;
+}
+
+.imgNav {
+  width: 500px;
+  margin-top:-112px;
+  text-align:center
+}
+
+.tittleHome {
+  color: #015e95;
+  margin-top:-100px;
+  font-weight: 900;
+}
+
+.subTittleHome {
+  color: #015e95;
+}
+
+.navButtons {
+  margin-top:20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.navBtn {
+  background-color: transparent;
+  border: 1px solid #015e95;
+  padding: 5px 20px;
+  border-radius: 3px;
+  color: #015e95;
+  font-weight: 600;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.navBtn:hover {
+  background-color: #c8e9f0;
+}
+
+.navBtn:active {
+  background-color: #c8e9f0;
+}
+
+.icons {
+  color: #015e95;
+  font-size:22px;
+  padding: 0px 5px;
+}
+
+.App-main {
+  width: 700px;
+  border: 1px solid #015e95;
+  margin: 20px auto;
+  padding: 0px 30px 80px 30px;
+  border-radius:5px;
+  transform: rotate(359deg);
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.clip {
+  width: 30px;
+  transform: translate(0px, -30px);
+}
+
+@media only screen and (max-width: 800px) {
+  .App-main {
+    width: 85%;
+    transform: none;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .clip {
+    width: 20px;
+    transform: translate(0px, -30px);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .imgNav {
+    width: 300px;
+  }
+
+  .tittleHome {
+    margin-top:-60px;
+
   }
 }

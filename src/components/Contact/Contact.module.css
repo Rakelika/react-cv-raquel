@@ -1,0 +1,29 @@
+.Contact {
+    text-align: center;
+}
+
+.tittleSection {
+    color:#015e95;
+    font-weight: 800;
+
+}
+
+.mailBtn{
+    background-color: transparent;
+    border: 1px solid #015e95;
+    padding: 5px 20px;
+    border-radius: 3px;
+    color: #015e95;
+    font-weight: 600;
+    cursor: pointer;
+    font-size:18px;
+    margin:20px auto
+}
+
+.mailBtn:hover {
+    background-color: #c8e9f0;
+  }
+
+.rrss {
+    font-size:40px
+}
